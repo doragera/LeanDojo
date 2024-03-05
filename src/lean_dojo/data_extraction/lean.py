@@ -391,7 +391,7 @@ info_cache = RepoInfoCache()
 
 
 _GIT_REQUIREMENT_REGEX = re.compile(
-    r"require\s+(?P<name>\S+)\s+from\s+git\s+\"(?P<url>.+?)\"(\s+@\s+\"(?P<rev>\S+)\")?"
+    r"require\s+(?P<name>\S+)\s+from\s+git\s+\"(?P<url>http.+?)\"(\s+@\s+\"(?P<rev>\S+)\")?"
 )
 
 
